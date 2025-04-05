@@ -1,0 +1,48 @@
+# Node.js
+node_modules/
+pnpm-lock.yaml
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# VSCode
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Output
+dist/
+build/
+out/
+coverage/
+
+# Editor-specific
+.idea/
+*.swp
+
+# Temp
+.tmp/
+temp/
+*.tmp
+
+# Storybook static builds
+storybook-static/
+
+# Jekyll (혹시 markdown 문서화하거나 github pages 쓸 때 대비)
+_site/
+
+# Lint cache
+.eslintcache
+
+# Optional
+*.local
+.env
+.env.*

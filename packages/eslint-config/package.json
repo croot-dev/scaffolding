@@ -1,0 +1,28 @@
+{
+  "name": "@croot/eslint-config",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "exports": {
+    ".": "./base.js",
+    "./base": "./base.js",
+    "./typescript": "./typescript.js",
+    "./prettier": "./prettier.js"
+  },
+  "peerDependencies": {
+    "eslint": "^8.56.0",
+    "typescript": ">=4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-config-prettier": "^9.0.0"
+  },
+  "files": [
+    "base.js",
+    "typescript.js",
+    "prettier.js"
+  ]
+}
