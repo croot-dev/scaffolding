@@ -1,14 +1,12 @@
-module.exports = {
-  root: true,
-  env: {
-    browser: true,
-    es2021: true,
-    node: true,
+/** @type {import('eslint').FlatConfig} */
+export default {
+  languageOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
-  extends: ["eslint:recommended"],
-  parserOptions: {
-    ecmaVersion: 12,
-    sourceType: "module",
+  rules: {
+    'no-unused-vars': 'warn',
+    'no-console': 'warn',
+    'no-debugger': 'error',
   },
-  rules: {},
 };

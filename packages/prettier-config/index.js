@@ -1,12 +1,9 @@
-/** @type {import('prettier').Config} */
-module.exports = {
+export default {
   semi: true,
   singleQuote: true,
-  trailingComma: "all",
+  trailingComma: 'all',
   printWidth: 100,
   tabWidth: 2,
   bracketSpacing: true,
-  arrowParens: "avoid",
-  endOfLine: "auto",
-  plugins: [require("prettier-plugin-organize-imports")],
+  arrowParens: 'avoid',
 };

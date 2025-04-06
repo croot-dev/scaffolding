@@ -1,15 +1,18 @@
 {
   "name": "@croot/prettier-config",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./customize": "./customize.js",
+    "./with-tailwind": "./with-tailwind.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "index.js",
+    "with-tailwind.js"
+  ],
   "devDependencies": {
-    "prettier-plugin-organize-imports": "^4.1.0"
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11"
   }
 }

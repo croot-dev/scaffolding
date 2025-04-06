@@ -1,0 +1,18 @@
+{
+  "name": "@croot/tsconfig",
+  "version": "1.0.0",
+  "exports": {
+    "./base": "./base.json",
+    "./react": "./react.json",
+    "./vue": "./vue.json",
+    "./next": "./next.json",
+    "./nuxt": "./nuxt.json"
+  },
+  "files": [
+    "base.json",
+    "react.json",
+    "vue.json",
+    "next.json",
+    "nuxt.json"
+  ]
+}

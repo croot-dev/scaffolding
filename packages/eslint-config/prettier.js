@@ -1,7 +1,11 @@
-module.exports = {
-  extends: ['plugin:prettier/recommended'],
-  plugins: ['prettier'],
+import prettierPlugin from 'eslint-plugin-prettier';
+
+/** @type {import('eslint').FlatConfig} */
+export default {
+  plugins: {
+    prettier: prettierPlugin,
+  },
   rules: {
-    'prettier/prettier': ['error'],
+    'prettier/prettier': 'error',
   },
 };

@@ -1,4 +1,4 @@
-/node_modules
-/dist
-/packages/**/dist
-/templates/**/dist
+node_modules
+dist
+build
+coverage
